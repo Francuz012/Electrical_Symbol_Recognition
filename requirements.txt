@@ -1,0 +1,30 @@
+# Core Dependencies
+transformers==4.38.2    # Hugging Face Transformers for CodeBERT
+torch                  # Install separately based on system & GPU support
+datasets==2.18.0       # Hugging Face Datasets for data management
+tokenizers==0.19.1     # Tokenizer support for CodeBERT
+
+# Data Processing & Validation
+numpy==1.26.4          # Numerical computations
+pandas==2.2.1          # Data handling
+scipy==1.12.0          # Scientific computing
+jsonschema==4.21.1     # JSON validation for Dynamo files
+
+# Machine Learning Utilities
+scikit-learn==1.4.1    # ML utilities for pre/post-processing
+matplotlib==3.8.3      # Visualization
+
+# File Handling & I/O
+tqdm==4.66.2           # Progress bar for processing
+pyyaml==6.0.1          # YAML file handling
+networkx==3.2.1        # Graph representation of Dynamo nodes
+
+# Deployment & Performance Optimization
+fastapi==0.110.0       # API for model deployment
+uvicorn==0.29.0        # ASGI server for FastAPI
+gunicorn==21.2.0       # Deployment server
+onnxruntime==1.17.1    # Running optimized ONNX models
+
+# Additional Utilities
+rich==13.7.1           # Pretty printing in terminal
+loguru==0.7.2          # Logging utility
